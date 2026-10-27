@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="sr-Latn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RS Parking — Politika privatnosti</title>
+<style>
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.75;
+  background: #f3f5f8;
+  color: #14243b;
+}
+header {
+  background: #14243b;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+}
+header strong { font-size: 30px; }
+header p { color: #f4c542; margin-bottom: 0; }
+main {
+  max-width: 900px;
+  margin: 25px auto;
+  padding: 32px;
+  background: white;
+  border-radius: 18px;
+}
+h1 { font-size: 30px; line-height: 1.3; }
+h2 { font-size: 22px; margin-top: 30px; line-height: 1.4; }
+a { color: #175e8a; overflow-wrap: anywhere; }
+li { margin-bottom: 10px; }
+.notice {
+  background: #fff7dc;
+  border-left: 5px solid #f4c542;
+  padding: 15px 20px;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  color: #5d6b7c;
+}
+@media (max-width: 600px) {
+  main { margin: 12px; padding: 20px; }
+  h1 { font-size: 26px; }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <strong>RS Parking</strong>
+  <p>Manje traženja. Mirnije parkiranje.</p>
+</header>
+
+<main>
+<h1>Politika privatnosti</h1>
+
+<p>
+<strong>Aplikacija:</strong> RS Parking<br>
+<strong>Android paket:</strong> rs.petargajic.parking<br>
+<strong>Autor:</strong> Petar Gajić<br>
+<strong>Kontakt:</strong>
+<a href="mailto:p.gajic1992@gmail.com">p.gajic1992@gmail.com</a><br>
+<strong>Poslednje ažuriranje:</strong> 27. oktobar 2026.
+</p>
+
+<p>
+Ova politika opisuje obradu podataka u verziji 1.6 aplikacije RS Parking:
+pripremu SMS poruke za parking, izbor grada i zone, čuvanje mesta vozila,
+podsetnike, podatke o susednim vozilima i prikaz oglasa.
+</p>
+
+<h2>1. Nalozi i podaci na uređaju</h2>
+
+<p>
+Aplikacija ne zahteva registraciju niti korisnički nalog.
+Nemamo sopstveni server za čuvanje vaših vozila, lokacija,
+beleški ili fotografija.
+</p>
+
+<p>Na uređaju se mogu čuvati:</p>
+<ul>
+  <li>Registarske oznake i nazivi vozila.</li>
+  <li>Izabrani grad, omiljene zone i ručno unete zone.</li>
+  <li>Istorija pripremljenih SMS poruka.</li>
+  <li>Sačuvano mesto vozila, beleška, vreme i procenjena preciznost.</li>
+  <li>Podaci potrebni za podsetnike.</li>
+  <li>Opcioni podaci i kopije fotografija susednih vozila.</li>
+</ul>
+
+<h2>2. Precizna i približna lokacija</h2>
+
+<p class="notice">
+RS Parking može koristiti preciznu fizičku lokaciju kada korisnik
+odobri odgovarajuću Android dozvolu. Lokacija se koristi na zahtev,
+dok je aplikacija otvorena. Aplikacija ne prati lokaciju u pozadini
+i ne vodi istoriju kretanja.
+</p>
+
+<p>
+Lokacija se traži kada izaberete „Prikaži moju lokaciju”,
+„Sačuvaj mesto” ili povezanu funkciju. Služi za pronalaženje grada,
+prikaz trenutne lokacije i čuvanje mesta parkiranja.
+Možete dozvoliti približnu umesto precizne lokacije.
+Aplikacija može koristiti i nedavno dobijenu lokaciju telefona.
+</p>
+
+<p>
+Traženje lokacije prekida se nakon dobijanja podatka,
+isteka zahteva ili napuštanja aplikacije.
+Kada sačuvate mesto vozila, koordinate, vreme,
+procenjena preciznost i beleška čuvaju se lokalno.
+</p>
+
+<p>
+Android usluga Geocoder može proslediti koordinate svom pružaocu
+usluge radi dobijanja naziva mesta. Pružalac zavisi od uređaja
+i njegovih sistemskih usluga. Zbog toga svi podaci o lokaciji
+ne ostaju nužno samo na telefonu.
+</p>
+
+<p>
+Kada otvorite mapu ili putanju do auta, izabrane koordinate
+prosleđuju se spoljnoj usluzi za mape. Na tu obradu primenjuju se
+pravila te usluge. RS Parking ne prati dalje kretanje u spoljnoj mapi.
+</p>
+
+<p>
+Dozvolu možete odbiti ili promeniti kroz Android → Aplikacije →
+RS Parking → Dozvole → Lokacija. Bez lokacije možete ručno birati
+grad i zonu. Opozivanje dozvole ne briše ranije sačuvano mesto;
+njega brišete kroz „Obriši sačuvano mesto”.
+</p>
+
+<h2>3. SMS poruke i plaćanje</h2>
+
+<p>
+Aplikacija ne čita SMS poruke i ne šalje ih samostalno.
+Na vaš zahtev otvara SMS aplikaciju sa izabranim brojem zone
+i registarskom oznakom. Vi odlučujete da li ćete poruku poslati.
+</p>
+
+<p>
+Slanjem poruke podatke obrađuju SMS aplikacija, mobilni operater
+i parking služba prema svojim pravilima.
+RS Parking ne preuzima SMS potvrde, ne proverava stanje kredita
+i ne obrađuje naplatu parkinga.
+</p>
+
+<p>
+Istorija u aplikaciji odnosi se na pripremljene poruke,
+a ne na potvrđene uplate. Aplikacija ne traži broj platne kartice,
+podatke o bankovnom računu niti lozinke za plaćanje.
+</p>
+
+<h2>4. Susedna vozila i fotografije</h2>
+
+<p>
+Možete opciono uneti marku/model i registarsku oznaku vozila
+sa leve i desne strane, kao i izabrati fotografiju.
+Podaci služe lokalnoj evidenciji uz sačuvano mesto parkiranja.
+</p>
+
+<p>
+Fotografiju birate pojedinačno Android sistemskim biračem.
+Aplikacija nema dozvolu za pregled cele galerije
+i ne uključuje kameru samostalno.
+Čuva umanjenu JPEG kopiju u privatnom prostoru aplikacije,
+bez prenosa originalnih EXIF metapodataka u tu kopiju.
+Original u galeriji ostaje neizmenjen.
+</p>
+
+<p>
+Podaci o susednim vozilima i kopije fotografija ne objavljuju se,
+ne dele drugim korisnicima i ne šalju našem serveru
+niti se prosleđuju oglasnoj jedinici.
+Prisustvo vozila pored vašeg auta samo po sebi
+ne utvrđuje odgovornost za eventualno oštećenje.
+</p>
+
+<p>
+Možete obrisati pojedinačnu fotografiju ili sve podatke kroz
+„Obriši susedna vozila”. Brisanje mesta i čuvanje novog mesta
+takođe uklanjaju podatke o prethodnim susednim vozilima.
+Time se ne brišu originalne fotografije iz galerije.
+</p>
+
+<h2>5. Google AdMob oglasi</h2>
+
+<p>
+Aplikacija sadrži jedan Google AdMob baner.
+Razvojni debug APK koristi probne oglase,
+dok release izdanje koristi oglasnu jedinicu autora.
+</p>
+
+<p>
+Google Mobile Ads SDK prikuplja i deli IP adresu,
+podatke o interakcijama sa aplikacijom i oglasima,
+dijagnostičke podatke i identifikatore uređaja i naloga,
+uključujući Android oglasni ID i app set ID kada su dostupni.
+Svrhe obuhvataju oglašavanje, merenje učinka, analitiku,
+bezbednost i sprečavanje prevara.
+Prenos podataka koje prikuplja ovaj SDK zaštićen je TLS protokolom.
+</p>
+
+<p>
+IP adresa može služiti za procenu približne lokacije.
+To je odvojeno od GPS lokacije za pronalaženje vozila.
+Odbijanje dozvole za GPS ne sprečava procenu približne lokacije
+iz IP adrese pri korišćenju oglasne usluge.
+</p>
+
+<p>
+Naš kod ne prosleđuje tablice, beleške, fotografije susednih vozila
+ili sačuvane GPS koordinate AdMob oglasnoj jedinici.
+Detalje o obradi, čuvanju i međunarodnim prenosima podataka uređuju
+<a href="https://policies.google.com/privacy">Google politika privatnosti</a>
+i
+<a href="https://policies.google.com/technologies/ads">Google pravila o oglašavanju</a>.
+</p>
+
+<h2>6. Saglasnost za oglase</h2>
+
+<p>
+Google User Messaging Platform (UMP) proverava da li je potreban
+obrazac izbora privatnosti i prikazuje ga kada je primenjiv.
+Aplikacija inicijalizuje prave oglase i šalje zahteve samo kada
+UMP dozvoli prema važećem izboru i regionu.
+</p>
+
+<p>
+Kada UMP zahteva naknadni pristup izboru, u odeljku „Više”
+prikazuje se „Saglasnost za oglase”.
+Kroz tu opciju možete ponovo otvoriti dostupne izbore.
+Oglasni identifikator možete kontrolisati i kroz Android
+podešavanja privatnosti. Osnovne funkcije parkinga dostupne su
+i kada oglas nije učitan.
+</p>
+
+<h2>7. Podsetnici, obaveštenja i alarmi</h2>
+
+<p>
+Podsetnike uključuje korisnik. Lokalno se čuvaju podaci potrebni
+za obaveštenje, kao što su tablica, grad, vreme isteka i podsećanja.
+Dozvola za precizan alarm odnosi se na tačnost vremena obaveštenja,
+a ne na preciznu lokaciju.
+</p>
+
+<p>
+Bez dozvole za precizan alarm Android može dostaviti podsetnik
+kasnije. Aplikacija može ponovo zakazati aktivne podsetnike
+nakon ponovnog pokretanja uređaja ili promene vremena.
+To ne pokreće praćenje lokacije.
+</p>
+
+<p>
+Dozvole i prikaz sadržaja na zaključanom ekranu kontrolišete
+kroz Android podešavanja obaveštenja.
+Podsetnik ne potvrđuje uplatu i ne produžava parking.
+</p>
+
+<h2>8. Čuvanje i brisanje</h2>
+
+<p>
+Lokalni podaci čuvaju se u prostoru aplikacije na uređaju.
+Automatska Android rezervna kopija je isključena,
+a pravila aplikacije isključuju podatke iz cloud kopije
+i prenosa uređaja.
+</p>
+
+<ul>
+  <li>
+    Vozila, ručne zone, istoriju poruka, mesto parkiranja
+    i podsetnike brišete u odgovarajućim odeljcima.
+  </li>
+  <li>
+    Čuvanje novog mesta zamenjuje prethodno mesto i uklanja
+    njegove podatke o susednim vozilima i kopije fotografija.
+  </li>
+  <li>
+    Stariji zapisi istorije mogu se automatski ukloniti kada se
+    dostigne interni limit, a istekli podsetnici pri obnovi spiska.
+  </li>
+  <li>
+    Sve lokalne podatke brišete kroz Android → Aplikacije →
+    RS Parking → Skladište → Obriši podatke ili deinstalacijom.
+  </li>
+</ul>
+
+<p>
+Brisanje podataka aplikacije ne briše poslate poruke u SMS aplikaciji,
+originale u galeriji ili podatke koje su već obradili spoljni pružaoci.
+Rokove njihovog čuvanja određuju njihova pravila.
+</p>
+
+<h2>9. Podrška i zahtevi za privatnost</h2>
+
+<p>
+Za pitanja i pomoć pri brisanju pišite na
+<a href="mailto:p.gajic1992@gmail.com">p.gajic1992@gmail.com</a>.
+Ako nam pošaljete mejl, obrađujemo adresu pošiljaoca i sadržaj
+poruke radi odgovora i rešavanja zahteva.
+Ti podaci se obrađuju i kod pružaoca mejl usluge
+i nisu deo lokalne baze aplikacije.
+Čuvaju se koliko je potrebno za zahtev i povezane obaveze.
+</p>
+
+<p>
+Možete nam se obratiti radi pristupa, ispravke ili brisanja podataka
+iz te prepiske, u skladu sa primenjivim pravilima.
+Nemamo daljinski pristup vašim lokalnim zapisima i ne možemo
+ih obrisati sa telefona umesto vas, ali možemo pružiti uputstvo.
+Za podatke kod Google-a, operatera, parking službe ili mape
+koristite i njihove kanale za privatnost.
+</p>
+
+<h2>10. Ova veb-stranica</h2>
+
+<p>
+Stranica je namenjena objavljivanju politike putem GitHub Pages-a.
+Ne sadrži našu analitiku, oglase ili obrazac za unos podataka.
+Hosting pružalac može obrađivati IP adresu i tehničke zapise
+o pristupu radi isporuke i bezbednosti sajta, prema
+<a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">
+GitHub politici privatnosti</a>.
+</p>
+
+<h2>11. Publika i spoljne usluge</h2>
+
+<p>
+Aplikacija je namenjena vozačima i osobama koje organizuju parkiranje,
+a nije namenjena deci. Ne omogućava javno objavljivanje fotografija
+ili međusobnu komunikaciju korisnika.
+Otvaranjem spoljnih sajtova, Google Play prodavnice,
+SMS aplikacije ili mape primenjuju se pravila njihovih pružalaca.
+</p>
+
+<p>
+RS Parking nije zvanična aplikacija parking službi.
+Cene i zone nisu ažurirane uživo.
+Pre slanja proverite parking tablu, broj zone i tablicu.
+Parking je potvrđen tek uspešnim odgovorom parking službe.
+</p>
+
+<h2>12. Izmene politike</h2>
+
+<p>
+Politiku ažuriramo kada se funkcije ili obrada podataka promene.
+Datum važeće verzije naveden je na početku stranice.
+Kada je potrebna nova dozvola ili izbor privatnosti,
+odgovarajući izbor traži se u aplikaciji ili Android sistemu.
+</p>
+
+</main>
+
+<footer>
+RS Parking · Petar Gajić<br>
+Kontakt: p.gajic1992@gmail.com
+</footer>
+
+</body>
+</html>
